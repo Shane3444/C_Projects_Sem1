@@ -11,7 +11,7 @@ int main(void)
     printf("Enter the value of c: ");
     scanf("%d", &c);
     
-    printf("Equation: %d * x + %d * y + %d * z")
+    printf("Equation: %d * x + %d * y + %d * z\n")
     
     printf("Enter the value of x: ");
     scanf("%d", &x);
