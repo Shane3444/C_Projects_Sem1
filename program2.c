@@ -5,22 +5,22 @@ int main(void)
     float x, y, z, a, b, c, ans;
     
     printf("Enter the value of a: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Enter the value of b: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
     printf("Enter the value of c: ");
-    scanf("%d", &c);
+    scanf("%f", &c);
     
-    printf("Equation: %d * x + %d * y + %d * z\n")
+    printf("Equation: %f * x + %f * y + %f * z\n")
     
     printf("Enter the value of x: ");
-    scanf("%d", &x);
+    scanf("%f", &x);
     printf("Enter the value of y: ");
-    scanf("%d", &y);
+    scanf("%f", &y);
     printf("Enter the value of z: ");
-    scanf("%d", &z);
+    scanf("%f", &z);
     
     ans = a * x + b * y + c * z;
     
-    printf("Answer: %d", ans);
+    printf("Answer: %f", ans);
 }
